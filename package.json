@@ -1,6 +1,6 @@
 {
   "name": "dev-version",
-  ":version": "1.0.0",
+  "version": "1.0.0",
   "description": "echos branch, commit hash and whether the repo is dirty",
   "main": "index.js",
   "scripts": {
