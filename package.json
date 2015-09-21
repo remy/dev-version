@@ -1,0 +1,24 @@
+{
+  "name": "dev-version",
+  ":version": "1.0.0",
+  "description": "echos branch, commit hash and whether the repo is dirty",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.test.js | tap-spec"
+  },
+  "keywords": [
+    "version",
+    "git",
+    "development"
+  ],
+  "author": "Remy Sharp",
+  "license": "MIT",
+  "dependencies": {
+    "es6-promise": "^3.0.2",
+    "then-fs": "^2.0.0"
+  },
+  "devDependencies": {
+    "tap-spec": "^2.2.2",
+    "tape": "^4.2.0"
+  }
+}
