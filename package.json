@@ -1,10 +1,10 @@
 {
   "name": "dev-version",
-  "version": "1.0.0",
   "description": "echos branch, commit hash and whether the repo is dirty",
   "main": "index.js",
   "scripts": {
-    "test": "tape test/*.test.js | tap-spec"
+    "test": "tape test/*.test.js | tap-spec",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "keywords": [
     "version",
@@ -19,6 +19,11 @@
   },
   "devDependencies": {
     "tap-spec": "^2.2.2",
-    "tape": "^4.2.0"
+    "tape": "^4.2.0",
+    "semantic-release": "^4.3.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/remy/dev-version.git"
   }
 }
